@@ -1,7 +1,7 @@
 {
-  "name": "my-app",
-  "description": "My Heroku App",
-  "repository": "https://github.com/your-username/your-repo",
+  "name": "your-app-name",
+  "description": "Your Heroku App Description",
+  "repository": "https://github.com/ibra1410/CollectSython",
   "keywords": ["heroku", "python"],
   "scripts": {
     "start": "python3 run.py"
