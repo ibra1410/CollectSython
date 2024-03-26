@@ -1,0 +1,31 @@
+{
+  "name": "my-app",
+  "description": "My Heroku App",
+  "repository": "https://github.com/your-username/your-repo",
+  "keywords": ["heroku", "python"],
+  "scripts": {
+    "start": "python3 run.py"
+  },
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token",
+      "required": true
+    },
+    "DEVLOO": {
+      "description": "Your Controller ID",
+      "required": true
+    },
+    "MAX_ACCOUNTS": {
+      "description": "Number of accounts",
+      "required": true
+    }
+  }
+}
